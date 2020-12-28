@@ -1,6 +1,7 @@
 ---
-layout: default
-title: Archive
+permalink: "/archive/"
+layout: "default"
+title: "Archive"
 ---
 
 # Archive
