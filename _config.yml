@@ -32,7 +32,7 @@ version: 1.0.0
 
 nav:
   - title: Blog
-    url: /archive
+    url: /archive/
 
   - title: À Propos
-    url: /about
+    url: /about/
