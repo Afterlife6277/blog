@@ -1,0 +1,15 @@
+/*
+# - Développé par: Keany Vy KHUN
+# - Sous Licence : MIT
+# - Projet: Mon site
+# - Description: Blog personnel
+# - Status: Fonctionnel
+*/
+
+@media screen and (min-width: 768px) {
+  footer {
+    margin-top: var(--spacer-3);
+    margin-bottom: var(--spacer-3);
+    margin-top: 160px;
+  }
+}
