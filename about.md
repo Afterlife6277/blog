@@ -1,6 +1,7 @@
 ---
-layout: page
-title: À Propos
+permalink: "/about/"
+layout: "page"
+title: "À Propos"
 ---
 
 <p class="message">
