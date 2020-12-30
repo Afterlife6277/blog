@@ -48,7 +48,7 @@ En s'appuyant sur les [mathématiques modulaires](https://fr.wikipedia.org/wiki/
 
 On considère à présent qu'Alice crie le nombre $$ p = 100.000.217 $$ et $$ g = 123 $$. Bob prend donc note de ses deux nombres, ensuite Alice et Bob vont ensuite se créer une sorte de clef de cadenas. Cette clef secrète sera donc de l'ordre de grandeur de $$ p $$  et nous les nommerons $$ a $$ et $$ b $$. Les deux clefs précédemment créent seront pour jamais secrètes donc seul Alice connaîtra $$ a $$ et seul Bob connaîtra $$ b $$.
 
-Enfin, Alice va calculer et crier le nombre g exposant a, de même Bob va calculer et crier $$ g^b $$. Ensuite, Alice va prendre le nombre $$ g^b $$ et mettre ce nombre à la puissance de $$ a $$. Elle obtient alors $$ (gb)^a $$ et de façon symétrique, Bob prend $$ g^a $$ puis il met ce nombre à la puissance b pour obtenir $$ (ga)^b $$.
+Enfin, Alice va calculer et crier le nombre $$ g^a $$, de même Bob va calculer et crier $$ g^b $$. Ensuite, Alice va prendre le nombre $$ g^b $$ et mettre ce nombre à la puissance de $$ a $$. Elle obtient alors $$ (gb)^a $$ et de façon symétrique, Bob prend $$ g^a $$ puis il met ce nombre à la puissance b pour obtenir $$ (ga)^b $$.
 
 D'où $$ (gb)^a = g^(ab) = (ga)^b $$ on remarquera qu'Alice et Bob auront donc calculé le même nombre.
 
