@@ -50,7 +50,7 @@ On considère à présent qu'Alice crie le nombre $$ p = 100.000.217 $$ et $$ g 
 
 Enfin, Alice va calculer et crier le nombre g exposant a, de même Bob va calculer et crier g exposant de b. Ensuite, Alice va prendre le nombre g exposant b et mettre ce nombre à la puissance de a. Elle obtient alors $$ (gb)^a $$ et de façon symétrique, Bob prend g exposant a puis il met ce nombre à la puissance b pour obtenir $$ (ga)^b $$.
 
-D'où (gb)a = g(ab) = (ga)b on remarquera qu'Alice et Bob auront donc calculé le même nombre.
+D'où $$ (gb)^a = g^(ab) = (ga)^b $$ on remarquera qu'Alice et Bob auront donc calculé le même nombre.
 
 |Informations publiques|Informations privées|
 |----------------------|--------------------|
@@ -62,7 +62,7 @@ D'où (gb)a = g(ab) = (ga)b on remarquera qu'Alice et Bob auront donc calculé l
 
 En circonstance réelle, il faudra exécuter les mathématiques modulo $$ p $$. Ce qui aura pour effet de rendre les calculs d'Alice et Bob beaucoup plus faciles. Car dans cette mathématique, calculer n'importe quel nombre exposant n'importe quel autre nombre, peut se faire facilement.
 
-Cependant, grâce au protocole de Diffie-Hellman, un autre agent Charlotte ne pourra pas trouver les clefs secrètes de $$ a $$ et $$ b $$ appartenant à Alice et Bob. Car en effet, il est extrêmement difficile de calculer a à partir de g exposant a.  
+Cependant, grâce au protocole de Diffie-Hellman, un autre agent Charlotte ne pourra pas trouver les clefs secrètes de $$ a $$ et $$ b $$ appartenant à Alice et Bob. Car en effet, il est extrêmement difficile de calculer a à partir de $$ g^a $$.  
 > $$ a $$ -> $$ (g^a) $$ | *facile*  
 $$ (g^a) $$ -> $$ a $$ | *difficile*
 
