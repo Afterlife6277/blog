@@ -46,9 +46,9 @@ Comment peuvent-ils y remédier ?
 
 En s'appuyant sur les [mathématiques modulaires](https://fr.wikipedia.org/wiki/Arithm%C3%A9tique_modulaire), Alice va choisir et crier un nombre premier que l'on nomme par convention $$ p $$ et ce nombre premier doit être cryptographique, ensuite elle devra crier un autre très grand nombre que nous nommerons $$ g $$.
 
-On considère à présent qu'Alice crie le nombre $$ p = 100.000.217 $$ et $$ g = 123 $$. Bob prend donc note de ses deux nombres, ensuite Alice et Bob vont ensuite se créer une sorte de clef de cadenas. Cette clef secrète sera donc de l'ordre de grandeur de p et nous les nommerons a et b. Les deux clefs précédemment créent seront pour jamais secrètes donc seul Alice connaîtra a et seul Bob connaîtra b.
+On considère à présent qu'Alice crie le nombre $$ p = 100.000.217 $$ et $$ g = 123 $$. Bob prend donc note de ses deux nombres, ensuite Alice et Bob vont ensuite se créer une sorte de clef de cadenas. Cette clef secrète sera donc de l'ordre de grandeur de $$ p $$  et nous les nommerons $$ a $$ et $$ b $$. Les deux clefs précédemment créent seront pour jamais secrètes donc seul Alice connaîtra $$ a $$ et seul Bob connaîtra $$ b $$.
 
-Enfin, Alice va calculer et crier le nombre g exposant a, de même Bob va calculer et crier g exposant de b. Ensuite, Alice va prendre le nombre g exposant b et mettre ce nombre à la puissance de a. Elle obtient alors $$ (gb)^a $$ et de façon symétrique, Bob prend g exposant a puis il met ce nombre à la puissance b pour obtenir $$ (ga)^b $$.
+Enfin, Alice va calculer et crier le nombre g exposant a, de même Bob va calculer et crier $$ g^b $$. Ensuite, Alice va prendre le nombre $$ g^b $$ et mettre ce nombre à la puissance de $$ a $$. Elle obtient alors $$ (gb)^a $$ et de façon symétrique, Bob prend $$ g^a $$ puis il met ce nombre à la puissance b pour obtenir $$ (ga)^b $$.
 
 D'où $$ (gb)^a = g^(ab) = (ga)^b $$ on remarquera qu'Alice et Bob auront donc calculé le même nombre.
 
@@ -71,6 +71,6 @@ On dit donc que l'opération pour passer de $$ a $$ à $$ (g^a) $$ est une fonct
 *Attention, d'après la loi de Moore la puissance de calcul des ordinateurs évolue constement et pour le moment, il est uniquement possible de calculer $$ a $$ à partir de $$ (g^a) $$ avec un ordinateur quantique.*
 {: .message }
 
-Pour conclure, un autre agent Charlotte ne peut déterminer ni $$ a $$, ni $$ b $$. Il lui est alors impossible de calculer g(ab) à partir des informations publiques que nous retrouvons dans le tableau ci-dessus.
+Pour conclure, un autre agent Charlotte ne peut déterminer ni $$ a $$, ni $$ b $$. Il lui est alors impossible de calculer $$ g^(ab) $$ à partir des informations publiques que nous retrouvons dans le tableau ci-dessus.
 
 Le protocole de Diffie-Hellman permet donc de créer un secret partagé à savoir le nombre $$ g(a^b) $$. Et grâce à ce secret, Alice et Bob peuvent utiliser d'autres outils cryptographiques pour déterminer un chiffrement commun qui leur permettra ensuite de communiquer de manière complètement chiffrée sans avoir eu à se rencontrer à l'avance au préalable.
