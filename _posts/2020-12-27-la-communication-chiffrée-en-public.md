@@ -71,6 +71,6 @@ On dit donc que l'opération pour passer de $$ a $$ à $$ (g^a) $$ est une fonct
 *Attention, d'après la loi de Moore la puissance de calcul des ordinateurs évolue constement et pour le moment, il est uniquement possible de calculer $$ a $$ à partir de $$ (g^a) $$ avec un ordinateur quantique.*
 {: .message }
 
-Pour conclure, un autre agent Charlotte ne peut déterminer ni $$ a $$, ni $$ b $$. Il lui est alors impossible de calculer $$ g^(ab) $$ à partir des informations publiques que nous retrouvons dans le tableau ci-dessus.
+Pour conclure, un autre agent Charlotte ne peut déterminer ni $$ a $$, ni $$ b $$. Il lui est alors impossible de calculer $$ g^ab $$ à partir des informations publiques que nous retrouvons dans le tableau ci-dessus.
 
-Le protocole de Diffie-Hellman permet donc de créer un secret partagé à savoir le nombre $$ g(a^b) $$. Et grâce à ce secret, Alice et Bob peuvent utiliser d'autres outils cryptographiques pour déterminer un chiffrement commun qui leur permettra ensuite de communiquer de manière complètement chiffrée sans avoir eu à se rencontrer à l'avance au préalable.
+Le protocole de Diffie-Hellman permet donc de créer un secret partagé à savoir le nombre $$ g^ab $$. Et grâce à ce secret, Alice et Bob peuvent utiliser d'autres outils cryptographiques pour déterminer un chiffrement commun qui leur permettra ensuite de communiquer de manière complètement chiffrée sans avoir eu à se rencontrer à l'avance au préalable.
