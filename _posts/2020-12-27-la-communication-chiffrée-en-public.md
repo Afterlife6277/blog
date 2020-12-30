@@ -68,7 +68,7 @@ Cependant, grâce au protocole de Diffie-Hellman, un autre agent Charlotte ne po
 
 On dit donc que l'opération pour passer de a à (ga) est une fonction à sens unique.
 
-*Attention, d'après la [loi de Moore](https://fr.wikipedia.org/wiki/Loi_de_Moore) la puissance de calcul des ordinateurs évolue constement et pour le moment, il est uniquement possible de calculer a à partir de (ga) avec un ordinateur quantique.*
+*Attention, d'après la loi de Moore la puissance de calcul des ordinateurs évolue constement et pour le moment, il est uniquement possible de calculer a à partir de (ga) avec un ordinateur quantique.*
 {: .message }
 
 Pour conclure, un autre agent Charlotte ne peut déterminer ni à, ni b. Il lui est alors impossible de calculer g(ab) à partir des informations publiques que nous retrouvons dans le tableau ci-dessus.
