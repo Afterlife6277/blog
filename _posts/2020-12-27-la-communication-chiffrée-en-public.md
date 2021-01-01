@@ -18,7 +18,7 @@ Cet algorithme d'échanges de clés de Diffie-Hellman leur valut le prix Turing 
 
 Pendant des millénaires, les plus grands cryptographes étaient obligés de se rencontrer au préalable en secret, afin de se mettre d'accord sur la façon de chiffrer et déchiffrer leurs messages. 
 
-Et pour l'instant, il semblait mathématiquement impossible que deux agents, nommés précédemment Alice et Bob puissent se parler secrètement sans n'avoir déjà parlé secrètement avant au préalable. Puis en 1976, les informaticiens et cryptologues Diiffe et Hellman ont démontré l'impossible en trouvant un protocole cryptographique pour que nos deux agents Alice et Bob puissent se parler secrètement sans n'avoir jamais eu à se parler secrètement avant.
+Et pour l'instant, il semblait mathématiquement impossible que deux agents, nommés précédemment Alice et Bob puissent se parler secrètement sans n'avoir déjà parlé secrètement avant au préalable. Puis en 1976, les informaticiens et cryptologues Diffie et Hellman ont démontré l'impossible en trouvant un protocole cryptographique pour que nos deux agents Alice et Bob puissent se parler secrètement sans n'avoir jamais eu à se parler secrètement avant.
 
 ### Schéma d'une partie de protocole (mais pas encore entièrement sécurisé)
 
