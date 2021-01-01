@@ -26,7 +26,7 @@ On considère nos deux agents Alice et Bob. Nos deux agents ont chacun une valis
 
 Donc pour communiquer en toute sécurité, prenons l'exemple d'Alice, qui prend sa valise et qui met sa lettre à l'intérieur. Elle ferme ensuite, sa valise avec son cadenas puis envoie la valise cadenassée à Bob. Or on sait que Bob ne peut pas l'ouvrir, il met ainsi un second cadenas en parallèle du premier sur la valise d'Alice. Puis il renvoie la valise doublement cadenassée à Alice.
 
-Alors, Alice enlève son cadenas de la valise puis renvoie la valise simplement cadanasée. Ainsi, Bob peut enfin déverrouiller son cadenas, ouvrir la valise et ainsi lire la lettre d'Alice.
+Alors, Alice enlève son cadenas de la valise puis renvoie la valise simplement cadenasée. Ainsi, Bob peut enfin déverrouiller son cadenas, ouvrir la valise et ainsi lire la lettre d'Alice.
 
 *Attention, il reste encore un petit problème.*
 {: .message }
