@@ -1,6 +1,6 @@
 ---
 layout: post
-title: La communication chiffrée en public
-permalink: la-communication-chiffrée-en-public/
+title: L'algorithmique quantique
+permalink: l'algorithmique-quantique/
 status: en-cours
 ---
