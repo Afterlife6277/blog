@@ -1,38 +1,31 @@
-# Setup
-title: Keany Vy Khun's Blog
-url: "https://thisiskeanyvy.github.io"
-paginate: 1
-baseurl: ""
+title: Keany Vy's Blog
+description: "Le blog de Keany Vy KHUN - Juste mon blog..."
+author:
+  name: "Keany Vy KHUN"
+  email: "keanyvy@keemail.me"
+  url: "https://thisiskeanyvy.github.io"
 
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 3
+paginate_path: /page/:num/
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+future: true
 plugins:
-  - jekyll-gist
-  - jekyll-paginate
   - jekyll-seo-tag
+  - jekyll-paginate
   - jekyll-sitemap
 
-exclude:
-  - .editorconfig
-  - .git
-  - .jekyll-cache
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE.md
-  - README.md
-
-sass:
-  sass_dir: _sass
-  style: :compressed
-
-author:
-  name: Keany Vy KHUN
-  url: https://instagram.com/thisiskeanyvy
-  email: kinvestisseur@gmail.com
-
-version: 1.0.0
-
-nav:
-  - title: Blog
-    url: /archive/
-
-  - title: À Propos
-    url: /about/
+# Custom variables
+google_analytics: UA-198877742-1
+owner : "Keany Vy's Blog"
+year : "2020"

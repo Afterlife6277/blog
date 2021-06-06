@@ -1,19 +1,38 @@
 ---
-permalink: "/archive/"
-layout: "default"
-title: "Archive"
+layout: page
+title: Archive
 ---
 
-# Archive
+<section>
+  {% if site.posts[0] %}
 
-Parcourez tous les articles par mois et par année.
+    {% capture currentyear %}{{ 'now' | date: "%Y" }}{% endcapture %}
+    {% capture firstpostyear %}{{ site.posts[0].date | date: '%Y' }}{% endcapture %}
+    {% if currentyear == firstpostyear %}
+        <h3>Les publications de cette année</h3>
+    {% else %}  
+        <h3>{{ firstpostyear }}</h3>
+    {% endif %}
 
-{% assign postsByYearMonth = site.posts | group_by_exp: "post", "post.date | date: '%B %Y'" %}
-{% for yearMonth in postsByYearMonth %}
-  <h2>{{ yearMonth.name }}</h2>
-  <ul>
-    {% for post in yearMonth.items %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {%for post in site.posts %}
+      {% unless post.next %}
+        <ul>
+      {% else %}
+        {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+        {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+        {% if year != nyear %}
+          </ul>
+          <h3>{{ post.date | date: '%Y' }}</h3>
+          <ul>
+        {% endif %}
+      {% endunless %}
+        <li><time>{{ post.date | date:"%d %b" }} - </time>
+          <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+            {{ post.title }}
+          </a>
+        </li>
     {% endfor %}
-  </ul>
-{% endfor %}
+    </ul>
+
+  {% endif %}
+</section>
