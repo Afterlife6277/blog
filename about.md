@@ -1,6 +1,7 @@
 ---
 layout: page
-title: About
+title: À Propos
+permalink: /about/
 ---
 
 Hello ! Je suis Keany Vy KHUN, j'ai 16 ans et j'adore programmer, écrire dans mon shell ainsi que faire du pentest, à la recherche de nouvelles vulnérabilités. J'apprécie de même, de rédiger mon blog pendant la nuit.
