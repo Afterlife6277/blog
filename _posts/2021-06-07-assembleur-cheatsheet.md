@@ -17,7 +17,7 @@ L'instruction MOV (move) attribue une valeur dans un registre.
 MOV R0, R1
 ```
 
-Dans notre cas, elle récupère la valeur stockée, dans le registre R1 puis elle l'a place, dans le registre R0.
+> Dans notre cas, elle récupère la valeur stockée, dans le registre R1 puis elle l'a place, dans le registre R0.
 
 
 
@@ -27,7 +27,8 @@ L'instruction CALL appelle une procédure (sub-routine).
 CALL function_name
 ```
 
-Dans notre cas, elle appelle la fonction située dans *function_name*.
+> Dans notre cas, elle appelle la fonction située dans *function_name*.
+>
 
 
 
@@ -37,7 +38,8 @@ L'instruction RET appelle la dernière instruction d'une procédure.
 RET function_name
 ```
 
-Dans notre cas, elle appelle, la dernière instruction de la procédure *function_name*.
+> Dans notre cas, elle appelle, la dernière instruction de la procédure *function_name*.
+>
 
 
 
@@ -47,7 +49,8 @@ L'instruction ADD (addition) additionne une valeur puis place le résultat dans 
 ADD R0, R1, R2
 ```
 
-Dans notre cas, elle récupère la valeur stockée, dans le registre R2, elle l'additionne à la valeur stockée dans le registre R1, puis elle place le résultat dans le registre R0.
+> Dans notre cas, elle récupère la valeur stockée, dans le registre R2, elle l'additionne à la valeur stockée dans le registre R1, puis elle place le résultat dans le registre R0.
+>
 
 
 
@@ -57,7 +60,8 @@ L'instruction SUB (subtraction) soustrait une valeur puis place le résultat dan
 SUB R0, R1, R2
 ```
 
-Dans notre cas, elle récupère la valeur stockée dans le registre R2, elle l'a soustrait à la valeur stockée dans le registre R1, puis elle place le résultat dans le registre R0.
+> Dans notre cas, elle récupère la valeur stockée dans le registre R2, elle l'a soustrait à la valeur stockée dans le registre R1, puis elle place le résultat dans le registre R0.
+>
 
 
 
@@ -67,7 +71,8 @@ L'instruction INC (increment) incrémente de 1 une valeur dans un registre.
 INC R0
 ```
 
-Dans notre cas, elle ajoute 1 à la valeur du registre R0.
+> Dans notre cas, elle ajoute 1 à la valeur du registre R0.
+>
 
 
 
@@ -77,7 +82,8 @@ L'instruction DEC (decrement) décrémente de 1 une valeur dans un registre.
 DEC R0
 ```
 
-Dans notre cas, elle enlève 1 à la valeur du registre R0.
+> Dans notre cas, elle enlève 1 à la valeur du registre R0.
+>
 
 
 
@@ -89,7 +95,8 @@ L'instruction NOP n'effectue rien.
 NOP
 ```
 
-Dans notre cas, on remplace l'instruction JNE, par l'instruction NOP, afin que l'instruction JNE ne soit pas exécutée.
+> Dans notre cas, on remplace l'instruction JNE, par l'instruction NOP, afin que l'instruction JNE ne soit pas exécutée.
+>
 
 
 
@@ -99,7 +106,8 @@ L'instruction CMP (compare) effectue une comparaison entre deux éléments.
 CMP R0, R1
 ```
 
-Dans notre cas, elle récupère la valeur stockée, dans le registre R1 et elle l'a compare à la valeur stockée, dans le registre R0.
+> Dans notre cas, elle récupère la valeur stockée, dans le registre R1 et elle l'a compare à la valeur stockée, dans le registre R0.
+>
 
 
 
@@ -109,7 +117,8 @@ L'instruction JMP (jump) effectue un saut sans conditions.
 JMP function_name
 ```
 
-Dans notre cas, elle effectue un saut vers l'adresse *function_name*.
+> Dans notre cas, elle effectue un saut vers l'adresse *function_name*.
+>
 
 ## Les sauts conditionnels :
 
@@ -119,7 +128,8 @@ L'instruction JE (jump if equal) effectue un saut conditionnel par rapport au r�
 JE function_name
 ```
 
-Dans notre cas, elle effectue un saut vers l'adresse *function_name* si le résultat, de l'instruction CMP effectué avant est égal.
+> Dans notre cas, elle effectue un saut vers l'adresse *function_name* si le résultat, de l'instruction CMP effectué avant est égal.
+>
 
 
 
@@ -129,7 +139,8 @@ L'instruction JNE (jump if not equal) effectue un saut conditionnel par rapport 
 JNE function_name
 ```
 
-Dans notre cas, elle effectue un saut vers l'adresse *function_name* si le résultat, de l'instruction CMP effectué avant est différent.
+> Dans notre cas, elle effectue un saut vers l'adresse *function_name* si le résultat, de l'instruction CMP effectué avant est différent.
+>
 
 
 
@@ -139,7 +150,8 @@ L'instruction JZ (jump if zero) effectue un saut conditionnel par rapport au ré
 JZ function_name
 ```
 
-Dans notre cas, elle effectue un saut vers l'adresse *function_name* si le résultat, de l'instruction CMP effectué avant est égal à 0.
+> Dans notre cas, elle effectue un saut vers l'adresse *function_name* si le résultat, de l'instruction CMP effectué avant est égal à 0.
+>
 
 
 
@@ -149,4 +161,4 @@ L'instruction JNZ (jump if not zero) effectue un saut conditionnel par rapport a
 JNZ function_name
 ```
 
-Dans notre cas, elle effectue un saut vers l'adresse *function_name* si le résultat, de l'instruction CMP effectué avant n'est pas égal à 0.
+> Dans notre cas, elle effectue un saut vers l'adresse *function_name* si le résultat, de l'instruction CMP effectué avant n'est pas égal à 0.
