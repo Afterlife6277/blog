@@ -28,7 +28,6 @@ CALL function_name
 ```
 
 > Dans notre cas, elle appelle la fonction située dans *function_name*.
->
 
 
 
@@ -39,7 +38,6 @@ RET function_name
 ```
 
 > Dans notre cas, elle appelle, la dernière instruction de la procédure *function_name*.
->
 
 
 
@@ -50,7 +48,6 @@ ADD R0, R1, R2
 ```
 
 > Dans notre cas, elle récupère la valeur stockée, dans le registre R2, elle l'additionne à la valeur stockée dans le registre R1, puis elle place le résultat dans le registre R0.
->
 
 
 
@@ -61,7 +58,6 @@ SUB R0, R1, R2
 ```
 
 > Dans notre cas, elle récupère la valeur stockée dans le registre R2, elle l'a soustrait à la valeur stockée dans le registre R1, puis elle place le résultat dans le registre R0.
->
 
 
 
@@ -72,7 +68,6 @@ INC R0
 ```
 
 > Dans notre cas, elle ajoute 1 à la valeur du registre R0.
->
 
 
 
@@ -83,7 +78,6 @@ DEC R0
 ```
 
 > Dans notre cas, elle enlève 1 à la valeur du registre R0.
->
 
 
 
@@ -96,7 +90,6 @@ NOP
 ```
 
 > Dans notre cas, on remplace l'instruction JNE, par l'instruction NOP, afin que l'instruction JNE ne soit pas exécutée.
->
 
 
 
@@ -107,7 +100,6 @@ CMP R0, R1
 ```
 
 > Dans notre cas, elle récupère la valeur stockée, dans le registre R1 et elle l'a compare à la valeur stockée, dans le registre R0.
->
 
 
 
@@ -118,7 +110,6 @@ JMP function_name
 ```
 
 > Dans notre cas, elle effectue un saut vers l'adresse *function_name*.
->
 
 ## Les sauts conditionnels :
 
@@ -129,7 +120,6 @@ JE function_name
 ```
 
 > Dans notre cas, elle effectue un saut vers l'adresse *function_name* si le résultat, de l'instruction CMP effectué avant est égal.
->
 
 
 
@@ -140,7 +130,6 @@ JNE function_name
 ```
 
 > Dans notre cas, elle effectue un saut vers l'adresse *function_name* si le résultat, de l'instruction CMP effectué avant est différent.
->
 
 
 
@@ -151,7 +140,6 @@ JZ function_name
 ```
 
 > Dans notre cas, elle effectue un saut vers l'adresse *function_name* si le résultat, de l'instruction CMP effectué avant est égal à 0.
->
 
 
 
@@ -162,3 +150,9 @@ JNZ function_name
 ```
 
 > Dans notre cas, elle effectue un saut vers l'adresse *function_name* si le résultat, de l'instruction CMP effectué avant n'est pas égal à 0.
+
+
+
+[^Auteur : Keany Vy KHUN]: Si cet article n'est pas complet ou comporte des erreurs merci de me contacter. Mes informations de contact sont dans la section [À Propos](https://thisiskeanyvy.github.io/about/).
+
+* Lire la publication sur Github : https://github.com/thisiskeanyvy/thisiskeanyvy.github.io/blob/main/_posts/2021-06-07-assembleur-cheatsheet.md
