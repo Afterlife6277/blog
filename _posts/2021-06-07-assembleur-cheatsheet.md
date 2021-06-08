@@ -151,8 +151,13 @@ JNZ function_name
 
 > Dans notre cas, elle effectue un saut vers l'adresse *function_name* si le résultat, de l'instruction CMP effectué avant n'est pas égal à 0.
 
+------
+```shell
+$ echo "Auteur : Keany Vy KHUN"
+```
 
+- Lire la publication sur Github : [Assembleur Cheatsheet](https://github.com/thisiskeanyvy/thisiskeanyvy.github.io/blob/main/_posts/2021-06-07-assembleur-cheatsheet.md)
 
-[^Auteur : Keany Vy KHUN]: Si cet article n'est pas complet ou comporte des erreurs merci de me contacter. Mes informations de contact sont dans la section [À Propos](https://thisiskeanyvy.github.io/about/).
+Si cet article n'est pas complet ou comporte des erreurs merci de me contacter. Mes informations de contact sont dans la section [À Propos](https://thisiskeanyvy.github.io/about/).
 
-* Lire la publication sur Github : https://github.com/thisiskeanyvy/thisiskeanyvy.github.io/blob/main/_posts/2021-06-07-assembleur-cheatsheet.md
+Merci à vous, d'avoir pris le temps de lire cet article !! ;-)
