@@ -158,6 +158,6 @@ $ echo "Auteur : Keany Vy KHUN"
 
 - Lire la publication sur Github : [Assembleur Cheatsheet](https://github.com/thisiskeanyvy/thisiskeanyvy.github.io/blob/main/_posts/2021-06-07-assembleur-cheatsheet.md)
 
-Si cet article n'est pas complet ou comporte des erreurs merci de me contacter. Mes informations de contact sont dans la section [À Propos](https://thisiskeanyvy.github.io/about/).
+Si cet article n'est pas complet ou comporte des erreurs merci de me contacter. Mes informations de contact sont dans la section [À Propos](https://thisiskeanyvy.pages.dev/about/).
 
 Merci à vous, d'avoir pris le temps de lire cet article !! ;-)
